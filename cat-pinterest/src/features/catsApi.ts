@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
-interface Cat {
+export interface Cat {
   id: string;
   url: string;
 }
