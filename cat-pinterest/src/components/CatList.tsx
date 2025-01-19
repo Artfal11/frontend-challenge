@@ -54,12 +54,11 @@ const CatList: React.FC = () => {
                 />
                 <button
                   onClick={() => dispatch(toggleFavorite(cat))}
-                  className="absolute bottom-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                  className="absolute bottom-2 right-2 p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 >
                   <img
-                    src={isFavorite ? "/images/heart-filled.svg" : "/images/heart.svg"}
+                    src={isFavorite ? "/frontend-challenge/images/heart-filled.svg" : "/frontend-challenge/images/heart.svg"}
                     alt={isFavorite ? "Remove from favorites" : "Add to favorites"}
-                    className="w-6 h-6"
                   />
                 </button>
               </div>

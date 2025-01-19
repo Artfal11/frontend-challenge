@@ -32,7 +32,7 @@ const FavoriteCats: React.FC = () => {
                   className="absolute bottom-2 right-2 p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 >
                   <img
-                    src="/images/heart-filled.svg"
+                    src="/frontend-challenge/images/heart-filled.svg"
                     alt="Remove from favorites"
                   />
                 </button>

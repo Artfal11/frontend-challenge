@@ -5,7 +5,7 @@ import FavoriteCats from './components/FavoriteCats';
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename='/frontend-challenge/'>
       <div className="min-h-screen">
         <nav className="bg-[#2196F3] h-[7vh] shadow-md mb-4">
           <div className="container mx-auto h-full flex items-center">
